@@ -2,25 +2,31 @@
   padding: 35px 0 25px;
 }
 
+.article__title {
+  font-size: 60px;
+  font-weight: 900;
+}
+
 .section {
   padding: 25px 0;
 }
 
+.section__container {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+}
+
 .section__title {
-  margin-bottom: 30px;
   font-size: 36px;
   font-weight: 900;
 }
 
-.section__figure:not(:last-child),
-.section__figcaption,
-.section__text:not(:last-child) {
-  margin-bottom: 30px;
-}
-
-.section__text_bold {
+.section__title_middle {
+  margin-bottom: 20px;
+  font-size: 44px;
   font-weight: 700;
-  text-transform: uppercase;
 }
 
 .section__img {
@@ -28,86 +34,33 @@
   margin: 0 auto;
 }
 
-.section__img {
+.section__margin-bottom {
   margin-bottom: 30px;
 }
 
-.section__img_m0,
-.section__img:last-child {
-  margin-bottom: 0;
+.section__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.section__link {
+  color: #02535f;
+  border-bottom: 1px solid #000;
+}
+
+.section__text-bold {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.section__align-center {
+  text-align: center;
 }
 
 .section__wrapper-text {
-  margin-bottom: 30px;
   border: 1px solid #000;
 }
 
 .section__text_p {
   margin-bottom: 0;
   padding: 15px 30px;
-}
-
-.main__title {
-  margin-bottom: 30px;
-  font-size: 60px;
-  font-weight: 900;
-}
-
-.main__text:not(:last-child) {
-  margin-bottom: 30px;
-}
-
-.abstract__title,
-.summary__title {
-  margin-bottom: 20px;
-  font-size: 44px;
-  font-weight: 700;
-}
-
-.abstract__container,
-.summary__container {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  border-radius: 10px;
-  background-color: #f1f1f1;
-}
-
-.abstract__item:not(:last-child) {
-  margin-bottom: 10px;
-}
-
-.abstract__link {
-  color: #02535f;
-  border-bottom: 1px solid #000;
-}
-
-.one__info:not(:last-child) {
-  margin-bottom: 30px;
-}
-
-.one__img {
-  width: 560px;
-}
-
-.one__list {
-  display: inline-block;
-  width: 474px;
-  vertical-align: top;
-}
-
-.one__item:not(:last-child) {
-  margin-bottom: 30px;
-}
-
-.summary__list {
-  margin-bottom: 30px;
-}
-
-.summary__item::before {
-  content: "\2014";
-  margin-right: 5px;
-}
-
-.summary__item:not(:last-child) {
-  margin-bottom: 10px;
 }

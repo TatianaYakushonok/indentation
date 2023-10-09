@@ -1,0 +1,25 @@
+.one__img {
+  width: 560px;
+}
+
+.one__img_top {
+  margin-right: 25px;
+}
+
+.one__list {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.one__list_top {
+  width: 490px;
+}
+
+.one__list_bottom {
+  width: 480px;
+  margin-right: 35px;
+}
+
+.one__item:not(:last-child) {
+  margin-bottom: 30px;
+}
