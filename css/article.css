@@ -61,10 +61,6 @@
   text-transform: uppercase;
 }
 
-.section__align-center {
-  text-align: center;
-}
-
 .section__wrapper-text {
   border: 1px solid #000;
 }
