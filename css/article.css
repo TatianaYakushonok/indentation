@@ -2,9 +2,18 @@
   padding: 35px 0 25px;
 }
 
+.article__container {
+  padding: 25px 0;
+}
+
 .article__title {
+  margin-bottom: 30px;
   font-size: 60px;
   font-weight: 900;
+}
+
+.article__text:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 .section {
