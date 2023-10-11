@@ -92,14 +92,18 @@
   margin-bottom: 10px;
 }
 
-.section__text-bold {
+.section__wrapper-text {
+  margin-bottom: 30px;
+  border: 1px solid #000;
+}
+
+.section__text_bold {
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.section__wrapper-text {
-  margin-bottom: 30px;
-  border: 1px solid #000;
+.section__text_grey {
+  color: #5e5e5e;
 }
 
 .section__text_padding {
