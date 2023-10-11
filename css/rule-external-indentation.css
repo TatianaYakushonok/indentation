@@ -1,0 +1,22 @@
+.rule-external-indentation__list {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.rule-external-indentation__content:nth-child(1) {
+  margin-right: 25px;
+}
+
+.rule-external-indentation__content:nth-child(2) {
+  width: 490px;
+}
+
+.rule-external-indentation__content:nth-child(3) {
+  width: 480px;
+  margin-right: 35px;
+}
+
+.rule-external-indentation__content:not(:nth-last-child(-n + 3)),
+.rule-external-indentation__item:not(:last-child) {
+  margin-bottom: 30px;
+}

@@ -4,7 +4,16 @@
 
 .article__container {
   padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.article__container_nav {
+  margin-bottom: 25px;
+  padding-top: 25px;
   padding-bottom: 25px;
+  padding-left: 45px;
+  border-radius: 10px;
+  background-color: #f1f1f1;
 }
 
 .article__title {
@@ -13,8 +22,26 @@
   font-weight: 900;
 }
 
+.article__title_middle {
+  margin-bottom: 20px;
+  font-size: 44px;
+  font-weight: 700;
+}
+
 .article__text:not(:last-child) {
   margin-bottom: 30px;
+}
+
+.article__list {
+  color: #02535f;
+}
+
+.article__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.article__link {
+  border-bottom: 1px solid #000;
 }
 
 .section {
@@ -24,11 +51,13 @@
 .section__container {
   padding-top: 25px;
   padding-bottom: 25px;
+  padding-left: 45px;
   border-radius: 10px;
   background-color: #f1f1f1;
 }
 
 .section__title {
+  margin-bottom: 30px;
   font-size: 36px;
   font-weight: 900;
 }
@@ -39,22 +68,28 @@
   font-weight: 700;
 }
 
-.section__img {
-  display: block;
-  margin: 0 auto;
+.section__figure:not(:last-child),
+.section__figcaption,
+.section__text:not(:last-child) {
+  margin-bottom: 30px;
 }
 
-.section__margin-bottom {
+.section__img {
+  display: block;
+  margin: 0 auto 30px;
+}
+
+.section__img_margin-none,
+.section__img:last-child {
+  margin-bottom: 0;
+}
+
+.section__list {
   margin-bottom: 30px;
 }
 
 .section__item:not(:last-child) {
   margin-bottom: 10px;
-}
-
-.section__link {
-  color: #02535f;
-  border-bottom: 1px solid #000;
 }
 
 .section__text-bold {
@@ -63,10 +98,11 @@
 }
 
 .section__wrapper-text {
+  margin-bottom: 30px;
   border: 1px solid #000;
 }
 
-.section__text_p {
+.section__text_padding {
   margin-bottom: 0;
   padding: 15px 30px;
 }
